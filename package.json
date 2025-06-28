@@ -1,0 +1,29 @@
+{
+  "name": "solidity-compiler-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ally Elvis Nzeyimana",
+  "license": "MIT",
+  "description": "solidity compiler cli ",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "solc": "^0.8.30"
+  },
+  "bin": {
+    "solc-cli": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allyelvis/solidity-compiler-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allyelvis/solidity-compiler-cli/issues"
+  },
+  "homepage": "https://github.com/allyelvis/solidity-compiler-cli#readme",
+  "type": "module"
+}
